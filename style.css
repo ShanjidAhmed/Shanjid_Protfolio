@@ -1,0 +1,25 @@
+h1{
+    font-size: 50px;
+}
+body{
+    font-family: 'Otomanopee One', sans-serif;
+}
+.orange-color{
+    color: orange;
+}
+.link-text{
+    text-decoration: none;
+    background-image: linear-gradient(tomato, orange);
+    color: white;
+    padding: 5px 25px;
+    border-radius: 10px;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+.image{
+    width: 75%;
+}
