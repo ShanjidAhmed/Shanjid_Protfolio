@@ -16,9 +16,14 @@ body{
 }
 section{
     display: flex;
+    background-image: url('images/top-banner.png');
+    background-repeat: no-repeat;
+    border-bottom: 100px solid white;
 }
 .half-width{
     width: 50%;
+    border-left: 5px solid white;
+    padding-left: 80px;
 }
 .image{
     width: 75%;
