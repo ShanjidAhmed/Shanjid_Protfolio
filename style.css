@@ -15,12 +15,10 @@ body{
     padding: 5px 25px;
     border-radius: 10px;
 }
-section{
-    display: flex;
+.bg-image{
     background-image: url('images/top-banner.png');
     background-repeat: no-repeat;
-    border-bottom: 100px solid white;
-    margin-left: 0;
+    
 
 }
 .half-width{
@@ -30,4 +28,31 @@ section{
 }
 .image{
     width: 75%;
+}
+section{
+    display: flex;
+    border-bottom: 150px solid white;
+}
+.div-border{
+    
+    margin-left: 80px;
+    box-shadow: -1px -1px 40px gray;
+    margin-right: 40px;
+    padding-right: 50px;
+    width: 50%;
+    border-left: 5px solid white;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    background-image: url('images/exp-bg.png');
+    background-repeat: no-repeat;
+}
+#bdr-div1{
+    border-left: 5px solid;
+    border-image: linear-gradient(pink, rgb(240, 105, 105) );
+    border-image-slice: 1;
+}
+#bdr-div2{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan );
+    border-image-slice: 1;
 }
