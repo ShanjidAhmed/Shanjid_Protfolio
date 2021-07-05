@@ -29,7 +29,7 @@ body{
 .image{
     width: 75%;
 }
-section{
+.display{
     display: flex;
     border-bottom: 150px solid white;
 }
@@ -45,6 +45,7 @@ section{
     padding-bottom: 20px;
     background-image: url('images/exp-bg.png');
     background-repeat: no-repeat;
+    
 }
 #bdr-div1{
     border-left: 5px solid;
@@ -55,4 +56,11 @@ section{
     border-left: 5px solid;
     border-image: linear-gradient(blue, cyan );
     border-image-slice: 1;
+}
+
+#footer-text{
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
